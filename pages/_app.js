@@ -7,9 +7,6 @@ export const OtherContext = createContext()
 MyContext.displayName = 'MyDisplayName'
 OtherContext.displayName = 'OtherDisplayName'
 
-console.log(MyContext)
-console.log(OtherContext)
-
 /*
 Context object accepts a displayName string property. 
 React DevTools uses this string to determine what to display for the context.
