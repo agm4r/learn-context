@@ -21,7 +21,10 @@ function MyApp({ Component, pageProps }) {
 
           NOTE: To see how to use the current value, 
                 you can move to branch feature/consumer 
-                then to page/index.js file. 
+                if you using function component 
+                then move to page/index.js file. But if you using 
+                class component you can move to branch feature/context-type
+                then move to page/index.js file. 
         */
       }
       <Component {...pageProps} />
