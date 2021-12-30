@@ -1,13 +1,11 @@
 import '../styles/globals.css'
 import { createContext } from 'react'
 
-export const MyContext = createContext()
+export const MyContext = createContext({ name: 'Agmar Putra' })
 
 function MyApp({ Component, pageProps }) {
   return (
-    <MyContext.Provider value={{ name: 'Agmar' }}>
-      <Component {...pageProps} />
-    </MyContext.Provider>
+    <Component {...pageProps} />
   )
 }
 
