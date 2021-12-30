@@ -1,6 +1,14 @@
 import ThemeProvider from '../src/ThemeContext'
 import '../styles/globals.css'
 
+/*
+  NOTE: This is example of simple case using React Context,
+        Check every branch for learn React Context from the beginning
+
+  Road Map Branch:
+  1. feature/create-context
+  2. feature/provider
+*/
 
 function MyApp({ Component, pageProps }) {
   return (
