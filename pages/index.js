@@ -10,12 +10,13 @@ export default function Home() {
     minHeight: '100vh',
     background: darkTheme ? '#002' : '#fff',
     color: darkTheme ? '#0fc' : '#002',
-    transition: '.3s cubic-bezier(.68,.96,.56,.12)'
+    transition: '.9s',
+    cursor: 'pointer'
   }
-  
+
   return (
-    <div style={styles}>
-      <h1 onClick={toggleTheme}>Learn Context</h1>
+    <div onClick={toggleTheme} style={styles}>
+      <h1>Learn Context</h1>
     </div>
   )
 }
