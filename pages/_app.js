@@ -11,6 +11,8 @@ import '../styles/globals.css'
   Road Map Branch:
   1. feature/create-context
   2. feature/provider
+  3. feature/context-type
+  4. feature/consumer
 */
 
 function MyApp({ Component, pageProps }) {
