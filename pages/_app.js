@@ -5,6 +5,9 @@ import '../styles/globals.css'
   NOTE: This is example of simple case using React Context,
         Check every branch for learn React Context from the beginning
 
+        In index page is example of using React Context in function
+        In class page is example of using React Context in class
+
   Road Map Branch:
   1. feature/create-context
   2. feature/provider
