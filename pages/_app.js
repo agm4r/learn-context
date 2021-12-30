@@ -13,6 +13,7 @@ import '../styles/globals.css'
   2. feature/provider
   3. feature/context-type
   4. feature/consumer
+  5, feature/display-name
 */
 
 function MyApp({ Component, pageProps }) {
